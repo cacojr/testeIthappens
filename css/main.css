@@ -1,5 +1,96 @@
 /* A font é Exos 2 e ela ta no google fonts*/
-
 body{
-	background-color: red;
+	max-width: 80%;
+	margin: auto;
+	font-family: 'Exo 2', sans-serif; /* Font aplicada no corpo página */
+}
+
+/*  */
+.row{
+	padding-left: 10%;
+	min-width: 70%;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+/*  */
+.rowBottom{
+	float: right;
+	margin-top: 25px;
+	padding-right: 20%;
+}
+
+/* Posicionar a div na direita */
+.float-right{
+	padding-top: 40px;
+	padding-left: 38px;
+	float: right;
+}
+
+/* Classe do Header */
+.header {
+	max-width: 80%;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+/* Links que estão no header */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style para o Link ativo */
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Posicionar o menu na parte direita superior da tela */
+.header-right {
+  float: right;
+}
+
+/* Classe para imagens responsivas */
+.img-responsive {
+		padding-right: 15px;
+    max-height: 100%;
+    width: auto;
+		border-radius: 5px 5px 5px 5px;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+/* Tag para o texto de tamanho maior */
+.biggerText{
+	font-size: 150px;
+	font-weight: bold;
+}
+
+/* Tag para o texto de tamanho medio */
+.meddiumText{
+	font-size: 35px;
+}
+
+/* Tag para o paragrafo medio */
+.p2{
+	margin-left: 15%;
+	font-size: 25px;
 }
